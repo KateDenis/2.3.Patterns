@@ -1,1 +1,1 @@
-# Sample Project 
+# Sample Project [![Build status](https://ci.appveyor.com/api/projects/status/6hs78wcoe646u5he?svg=true)](https://ci.appveyor.com/project/KateDenis/2-3-patterns)
