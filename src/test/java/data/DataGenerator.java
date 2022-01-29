@@ -4,10 +4,17 @@ import com.github.javafaker.Country;
 import com.github.javafaker.Faker;
 import lombok.Data;
 import lombok.experimental.UtilityClass;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 @UtilityClass
 public class DataGenerator {
+
+
+    public static String getPlanningDate(int cnt) {
+                return LocalDate.now().plusDays(cnt).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+    }
 
     @UtilityClass
     public static class Registration {
