@@ -13,7 +13,7 @@ public class DataGenerator {
 
 
     public static String getPlanningDate(int cnt) {
-                return LocalDate.now().plusDays(cnt).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+        return LocalDate.now().plusDays(cnt).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
 
     @UtilityClass
